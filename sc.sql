@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
--- Généré le : jeu. 28 avr. 2022 à 16:15
+-- Généré le : jeu. 28 avr. 2022 à 17:58
 -- Version du serveur : 10.4.22-MariaDB
 -- Version de PHP : 7.4.27
 
@@ -52,16 +52,16 @@ CREATE TABLE `etudiant` (
 
 INSERT INTO `etudiant` (`idEtudiant`, `nom`, `prenom`, `codeBadge`) VALUES
 (1, 'MARTON COULIS', 'Wendy', 'E8C67A66'),
-(2, 'HILLION', 'Yannik', ''),
+(2, 'HILLION', 'Yannik', '6960AB0E'),
 (3, 'LAGRAND', 'Mathis', ''),
-(4, 'MAUGEE', 'Killian', ''),
-(5, 'LENROUILLY', 'Kylian', ''),
-(6, 'THIVET VALBON', 'Kyllian', ''),
-(7, 'OLIVIERI', 'Kenji', ''),
-(8, 'SAINTE ROSE', 'Simeon', ''),
-(9, 'JUHEL', 'Yanis', ''),
+(4, 'MAUGEE', 'Killian', '69646E2E'),
+(5, 'LENROUILLY', 'Kylian', '69601BEE'),
+(6, 'THIVET VALBON', 'Kyllian', '696178FE'),
+(7, 'OLIVIERI', 'Kenji', '69696B4E'),
+(8, 'SAINTE ROSE', 'Simeon', '6962081E'),
+(9, 'JUHEL', 'Yanis', '695FE5FE'),
 (10, 'LAMON', 'Noorham', ''),
-(11, 'VATON', 'Melvyn', '123456');
+(11, 'VATON', 'Melvyn', '6960136E');
 
 --
 -- Index pour les tables déchargées
