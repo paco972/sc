@@ -4,7 +4,7 @@ __________________________________________
 
 Documentation :
 - https://www.hitools.fr/produit/promag-mf7-mf7-20-lecteur-rfid-mifare-hitools/ : Lecteur de badges RFID MF7
-- https://www.eztcp.com/en/download/pds_files/cieh14en.pdf : Passerelle RS232 + E/S vers Ethernet
+- https://www.eztcp.com/en/download/pds_files/cieh14en.pdf : Passerelle RS232 + E/S vers Ethernet CIE-H14
 
 Exercices : 
 - sc1.php : lecture de la trame renvoyée par le lecteur de badge
@@ -13,7 +13,7 @@ Exercices :
 - sc4.php : enregistrement du code du badge dans la table entrees
 
 Ouverture de la porte : 
-- 
+- ouverture.php : Envoi de la requête HTTP au CIE-H14
 
 Consultation des données en base :
 - sc.sql : Sauvegarde des tables etudiant et entree
