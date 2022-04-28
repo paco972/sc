@@ -4,6 +4,7 @@ __________________________________________
 
 Documentation :
 - https://www.hitools.fr/produit/promag-mf7-mf7-20-lecteur-rfid-mifare-hitools/ : Lecteur de badges RFID MF7
+- https://www.eztcp.com/en/download/pds_files/cieh14en.pdf : Passerelle RS232 + E/S vers Ethernet
 
 Exercices : 
 - 
