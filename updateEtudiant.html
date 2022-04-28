@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Modification étudiant</title>
+    </head>
+    <body>
+        <p>
+            Nom :
+            <input type="text" name="nom"/>
+        </p>
+        <p>
+            Prénom :
+            <input type="text" name="prenom"/>
+        </p>
+        <p>
+            Code badge :
+            <input type="text" name="code"/>
+        </p>
+        <p>
+            <button onclick="updateEtudiant()">Modifier</button> 
+        </p>
+
+        <script>
+            // Récupération de l'id de l'étudiant
+            var url = new URL(window.location);
+            var id = url.searchParams.get('id');
+            // Récupération des données de l'étudiant
+            xhr = new XMLHttpRequest();
+            xhr.open('GET','etudiants.php?id=' + id, true);
+            xhr.send();
+            xhr.onload = function() {
+                json = JSON.parse(xhr.responseText);
+                // Affichage des données dans les champs
+                document.getElementsByName('nom')[0].value = json['nom'];
+                document.getElementsByName('prenom')[0].value = json['prenom'];
+                document.getElementsByName('code')[0].value = json['codeBadge'];
+            };
+
+            function updateEtudiant() {
+                xhr = new XMLHttpRequest();
+                xhr.open("PUT",'etudiants.php?id=' + id, true);
+                xhr.setRequestHeader('Content-Type', 'application/json');
+                json['nom'] = document.getElementsByName('nom')[0].value;
+                json['prenom'] = document.getElementsByName('prenom')[0].value;
+                json['codeBadge'] = document.getElementsByName('code')[0].value;
+                // console.log(JSON.stringify(json));
+                xhr.send(JSON.stringify(json));
+                xhr.onload = function () {
+                    console.log(xhr.responseText);
+                }
+                window.open('SN1.html','_self');
+            }
+        </script>
+    </body>
+</html>
