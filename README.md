@@ -3,7 +3,7 @@ Fichiers pour le projet Serrure Connectée
 __________________________________________
 
 Documentation :
-- 
+- https://www.hitools.fr/produit/promag-mf7-mf7-20-lecteur-rfid-mifare-hitools/ : Lecteur de badges RFID MF7
 
 Exercices : 
 - 
