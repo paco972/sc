@@ -7,7 +7,8 @@ Documentation :
 - https://www.eztcp.com/en/download/pds_files/cieh14en.pdf : Passerelle RS232 + E/S vers Ethernet
 
 Exercices : 
-- 
+- sc1.php : lecture de la trame renvoyée par le lecteur de badge
+- sc2.php : lecture de la trame et extraction du code du badge
 
 Ouverture de la porte : 
 - 
