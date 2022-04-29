@@ -48,7 +48,7 @@
             switch($key) {
                 case "nom" : $nom = $value;         break;
                 case "prenom" : $prenom = $value;   break;
-                case "codeBadge" : $code = $value;  break;
+                case "code" : $code = $value;  break;
             }
         }
         $requete = "INSERT INTO `etudiant` (`idEtudiant`, `nom`, `prenom`, `codeBadge`) 
