@@ -22,4 +22,5 @@ Consultation des données en base :
 - createEtudiant.html : Formulaire pour ajouter un nouvel étudiant
 - updateEtudiant.html : Formulaire pour modifier les données d'un étudiant existant
 - entrees.php : Renvoie la liste au format JSON des entrées avec nom, prénom et datation (Back-end)
-- entrees.html : Afiche un tableau contenant la liste des entrées (Front-end)
+- entrees.html : Affiche un tableau contenant la liste des entrées (Front-end)
+- sc.php : Programme final qui lit les badges et ouvre la porte si le code est trouvé dans la table étudiant
