@@ -16,7 +16,7 @@ Ouverture de la porte :
 - ouverture.php : Envoi de la requête HTTP au CIE-H14
 
 Consultation des données en base :
-- sc.sql : Sauvegarde des tables etudiant et entree
+- sc.sql : Sauvegarde des tables etudiant et entrees
 - etudiants.php : API REST (Back-end)
 - SN1.html : Affichage de la liste des étudiants (Front-end)
 - createEtudiant.html : Formulaire pour ajouter un nouvel étudiant
