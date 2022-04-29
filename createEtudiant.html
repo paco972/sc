@@ -34,8 +34,8 @@
                 xhr.send(JSON.stringify(json));
                 xhr.onload = function () {
                     console.log(xhr.responseText);
+                    window.open('SN1.html','_self');
                 }
-                window.open('SN1.html','_self');
             }
         </script>
     </body>
