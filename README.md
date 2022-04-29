@@ -3,7 +3,7 @@ Fichiers pour le projet Serrure Connectée
 __________________________________________
 
 Documentation :
-- https://www.hitools.fr/produit/promag-mf7-mf7-20-lecteur-rfid-mifare-hitools/ : Lecteur de badges RFID MF7
+- https://www.idp.co.il/sysvault/docsfiles1/cd5bf2b1f7-db6b-4c43-ab23-660c9e5ff273.pdf : Lecteur de badges RFID MF7
 - https://www.eztcp.com/en/download/pds_files/cieh14en.pdf : Passerelle RS232 + E/S vers Ethernet CIE-H14
 
 Exercices : 
