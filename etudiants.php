@@ -6,7 +6,7 @@
     function getEtudiants() {
         global $conn;
         // Accès aux données
-        $requete = "SELECT * FROM etudiant";
+        $requete = "SELECT * FROM etudiant ORDER BY `nom` ASC";
         $result = mysqli_query($conn, $requete);
         $etudiants = array();
         if (mysqli_num_rows($result) >0) {
