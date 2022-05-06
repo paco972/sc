@@ -23,4 +23,8 @@ Consultation des données en base :
 - updateEtudiant.html : Formulaire pour modifier les données d'un étudiant existant
 - entrees.php : Renvoie la liste au format JSON des entrées avec nom, prénom et datation (Back-end)
 - entrees.html : Affiche un tableau contenant la liste des entrées (Front-end)
+
+Applications finales :
 - sc.php : Programme final qui lit les badges et ouvre la porte si le code est trouvé dans la table étudiant
+- sc_navig.php : Programme final qui reçoit un code et ouvre la porte si ce code est trouvé dans la table étudiant (Back-end)
+- sc_navig.html : Interface finale pour saisir le code et l'envoyer au serveur (Front-end)
